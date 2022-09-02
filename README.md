@@ -27,4 +27,5 @@ vulnerability patterns. The detection phase of Pami includes
 data preprocessing, feature extraction, and classification. For
 the target function, Pami detects it with the help of anomaly
 detection models and vulnerability patterns generated in the
-training phase to generate feature vectors of the function.
+training phase to generate feature vectors of the function.<br><br>
+The source code and dataset of Pami will be published here after the paper is accepted.
