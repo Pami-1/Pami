@@ -18,3 +18,13 @@ them to construct the features of the function.<br>
 feed it into a machine learning model for training and
 detection and infer its vulnerability type from its feature
 vector to interpret the vulnerability detection results.
+The training phase of Pami consists of two parts: data
+preprocessing and slice purification. The input to the training
+part is the vulnerable function, which aims to retain the
+vulnerable slices by discarding the slices without vulnerabilities. Its goal is to generate a vulnerability anomaly detection
+model and cluster the remaining vulnerable slices to generate
+vulnerability patterns. The detection phase of Pami includes
+data preprocessing, feature extraction, and classification. For
+the target function, Pami detects it with the help of anomaly
+detection models and vulnerability patterns generated in the
+training phase to generate feature vectors of the function.
