@@ -1,5 +1,5 @@
 # Pami: A Two-step Purification Approach for Machine Learning-based Vulnerability Detection
-The framework of Pami is shown in Fig. 2 which consists
+The framework of Pami consists
 of four main phases: Data Preprocessing, Slice Purification,
 Feature Extraction, and Classification. The input of Pami is
 the source code of the target function, and the output is the
