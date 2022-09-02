@@ -3,7 +3,7 @@ The framework of Pami is shown in Fig. 2 which consists
 of four main phases: Data Preprocessing, Slice Purification,
 Feature Extraction, and Classification. The input of Pami is
 the source code of the target function, and the output is the
-vulnerability detection results and its interpretation.
+vulnerability detection results and its interpretation.<br>
 • Data Preprocessing: For the source code of the target
 function, we first perform code normalization on it and
 then conduct program slicing to generate its slices.
