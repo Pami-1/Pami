@@ -17,7 +17,7 @@ them to construct the features of the function.<br>
 • Classification: For the feature vector of the function, we
 feed it into a machine learning model for training and
 detection and infer its vulnerability type from its feature
-vector to interpret the vulnerability detection results.<br>
+vector to interpret the vulnerability detection results.<br><br>
 The training phase of Pami consists of two parts: data
 preprocessing and slice purification. The input to the training
 part is the vulnerable function, which aims to retain the
